@@ -2,14 +2,6 @@
 
 An AI-powered command-line tool that helps you find and execute Unix/Linux commands using OpenAI's GPT models.
 
-## Features
-
-- 🤖 Query AI for Unix commands using natural language
-- 🚀 Interactive menu-driven interface
-- ⚡ Direct command-line queries
-- 🔒 Safe command execution with confirmation prompts
-- 📝 Command output display
-
 ## Setup
 
 1. **Install dependencies:**
@@ -75,13 +67,6 @@ $ node index.js query "compress all jpg files in current directory"
 find . -name "*.jpg" -exec gzip {} \;
 ```
 ```
-
-## Safety Features
-
-- ⚠️ Warning prompts before executing AI-generated commands
-- 🔍 Command validation and confirmation
-- 🛡️ Error handling for API failures
-- 📋 Clear command output display
 
 ## Requirements
 
