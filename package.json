@@ -1,0 +1,30 @@
+{
+  "name": "unix-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js greet",
+    "query": "node index.js query",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unix",
+    "ai",
+    "cli",
+    "openai",
+    "commands"
+  ],
+  "author": "Your Name <brent@minusmail.com>",
+  "license": "ISC",
+  "bin": {
+    "unixtip": "./index.js"
+  },
+  "dependencies": {
+    "command": "^1.1.1",
+    "commander": "^14.0.0",
+    "dotenv": "^16.4.1",
+    "inquirer": "^12.7.0",
+    "openai": "^4.28.0"
+  },
+  "description": "An AI-powered command-line tool that helps you find and execute Unix/Linux commands using OpenAI's GPT models."
+}
