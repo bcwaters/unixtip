@@ -29,12 +29,16 @@ An AI-powered command-line tool that helps you find and execute Unix/Linux comma
   ```bash
   npm install -g 
   ```
-- Now you can use the `unixtip` command from anywhere:
+- Now you can use the `unixtip` command from anywhere two ways:
+  ```bash
+  unixtip
+  ```
+
   ```bash
   unixtip "how to list all running processes"
   ```
 
-## Usage
+## Usage without global
 
 ### Interactive Mode
 Start the interactive menu:
